@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo - Menu de Status</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mochila.css">
+</head>
+<body>
+    <div id="status-menu">
+        <div class="status-section">
+            <h2>Informações do Jogador</h2>
+            <div>
+                <span>Nome: </span><span id="nome">Riick</span><br>
+                <span>Título: </span><span id="titulo">The solo player</span><br>
+                <span>Vida: </span><span id="vida">100</span><br>
+                <span>Mana: </span><span id="mana">50</span><br>
+                <span>Força: </span><span id="forca">10</span><br>
+                <span>Velocidade: </span><span id="velocidade">5</span><br>
+            </div>
+        </div>
+        <div class="status-section">
+            <h2>Estatísticas</h2>
+            <div>
+                <span>Contador de Mortes: </span><span id="contador-mortes">0</span><br>
+            </div>
+        </div>
+        <div class="status-section">
+            <h2>Mochila</h2>
+            <button id="btn-mochila">Mochila</button>
+        </div>
+    </div>
+
+    <!-- Adicione a estrutura HTML do jogo -->
+    <div id="jogo">
+        <div id="personagem"></div>
+        <div id="inimigo"></div>
+        <div id="tela-morte"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

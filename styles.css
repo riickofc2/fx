@@ -1,0 +1,70 @@
+#jogo {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+#personagem {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+}
+
+#inimigo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+}
+
+#tela-morte {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding-top: 100px;
+}
+/* Estilos básicos do jogo */
+body {
+  font-family: Arial, sans-serif;
+}
+
+#status-menu {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.status-section {
+  width: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
